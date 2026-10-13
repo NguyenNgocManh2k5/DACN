@@ -12,6 +12,8 @@ import tkinter as tk
 import cv2
 from PIL import Image, ImageTk
 from tkinter import messagebox, ttk
+import threading
+import time
 
 from app.config import APP_TITLE, WINDOW_SIZE, load_settings, save_setting
 from app.database import bootstrap
@@ -299,6 +301,8 @@ class MainWindow(tk.Tk):
 
         if self.is_camera_active and self.camera_widget:
             self.camera_widget.lift()
+        if hasattr(self, "product_cap") and self.product_cap and self.product_cap.isOpened() and self.product_camera_widget:
+            self.product_camera_widget.lift()
 
     # ---------- canh bao ton kho ----------
 
