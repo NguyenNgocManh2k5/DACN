@@ -1,0 +1,22 @@
+pymongo
+matplotlib
+reportlab
+tkcalendar
+pillow
+python-dotenv
+openpyxl
+# Tro ly AI dung Gemmini API
+# thi tro ly van chay o che do offline, khong can goi thu vien nay)
+anthropic
+opencv-python==4.10.0.84
+cvzone
+mediapipe
+pyautogui
+pycaw
+comtypes
+#############################
+bcrypt
+deepface
+tf-keras
+inference
+roboflow

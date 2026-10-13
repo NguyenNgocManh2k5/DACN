@@ -146,6 +146,7 @@ def seed(force: bool = False):
             "image_path": "",
             "is_active": True,
             "created_at": now,
+            "label": "",
         })
     db.products.insert_many(docs)
 
