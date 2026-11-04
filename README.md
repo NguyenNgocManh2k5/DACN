@@ -1,7 +1,11 @@
-# TechStore — Ứng dụng bán hàng công nghệ (Tkinter + MongoDB)
+# TechStore — Ứng dụng bán hàng công nghệ
 
-Đồ án môn Python nâng cao.
+(Đối với tính năng nhận diện sản phẩm, cần phải có droicam.
+- Tải về droicam trên máy tính theo đường link: https://drive.google.com/file/d/1VLzA2spDaFSGrrYCfC1r5IFDElzRHbX1/view?usp=drive_link
+- Cài đặt droicam trên điện thoại:
+truy cập CHPlay/AppStore -> tìm kiếm ứng dụng droicam -> cài đặt
 
+*Lưu ý: biểu tượng ứng dụng droicam (icon) tải xuống trên điện thoại phải trùng khớp với biểu tượng trên máy tính.)
 
 ## Quy trình thực hiện một task
 
